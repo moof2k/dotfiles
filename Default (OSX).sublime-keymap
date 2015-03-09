@@ -1,0 +1,5 @@
+[
+    { "keys": ["super+shift+s"], "command": "goto_symbol_in_project" },
+    { "keys": ["super+shift+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["ctrl+shift+f"], "command": "show_panel", "args": {"panel": "find_in_files"} },
+]
