@@ -1,0 +1,9 @@
+{
+    "editor.smoothScrolling": true,
+    "workbench.panel.location": "right",
+    "editor.rulers": [
+        80
+    ],
+    "editor.glyphMargin": false,
+    "workbench.colorTheme": "Monokai"
+}
