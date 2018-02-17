@@ -1,0 +1,26 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "shift+cmd+s",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "cmd+shift+o",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "C_Cpp.SwitchHeaderSource",
+        "when": "editorTextFocus && editorLangId == 'cpp'"
+    },
+    {
+        "key": "alt+o",
+        "command": "-C_Cpp.SwitchHeaderSource",
+        "when": "editorTextFocus && editorLangId == 'cpp'"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "-editor.action.insertCursorAbove",
+        "when": "editorTextFocus"
+    }
+]
